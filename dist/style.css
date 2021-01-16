@@ -32,8 +32,29 @@ input[type='search'] {
 
 input[type='image'] {
   position: absolute;
-  left: 4.6rem;
+  left: 6rem;
   top: 0.1rem;
+}
+
+.errorMsg {
+  position: absolute;
+  width: 200px;
+  left: -5rem;
+  top: 0.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 1s linear;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s linear;
 }
 
 .weatherStatus {
